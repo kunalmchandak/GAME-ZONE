@@ -1,18 +1,62 @@
-## Getting Started
+# GAME ZONE
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+GAME ZONE is a Java-based desktop gaming application developed using **Java Swing** and **AWT** for the UI, with **MySQL** as the backend for storing user data. It features multiple mini-games, including **Rock Paper Scissors** and **Tic Tac Toe**.
 
-## Folder Structure
+## Features
+- Interactive **Splash Screen**
+- **Home Screen** with game selection
+- **Rock Paper Scissors** game
+- **Tic Tac Toe** game
+- User authentication (Login & Signup) using **MySQL database**
+- Responsive UI with animations
 
-The workspace contains two folders by default, where:
+## Technologies Used
+- **Java Swing & AWT** (Graphical User Interface)
+- **MySQL** (Database for storing user information)
+- **JDBC** (Connecting Java application with MySQL)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Installation
+### Prerequisites:
+- Java Development Kit (**JDK 8+**)
+- MySQL Database
+- Git (for version control)
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+### Steps:
+1. Clone the repository:
+   ```sh
+   git clone <repository-url>
+   cd GAME-ZONE
+   ```
+2. Configure the MySQL database:
+   - Import `game_zone.sql` into MySQL
+   - Update database credentials in `DatabaseConnection.java`
+3. Compile and run the project:
+   ```sh
+   javac -d bin -sourcepath src src/com/project/demo/Main.java
+   java -cp bin com.project.demo.Main
+   ```
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Contributing
+To contribute to this project:
+1. Fork the repository
+2. Create a new branch:
+   ```sh
+   git checkout -b feature-branch
+   ```
+3. Make your changes and commit:
+   ```sh
+   git commit -m "Added new feature"
+   ```
+4. Push changes and create a Pull Request:
+   ```sh
+   git push origin feature-branch
+   ```
 
-## Dependency Management
+## Contributors
+- **Kunal Chandak** (Project Developer)
+- **Ekta Khante** (Project Developer)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## License
+This project is licensed under the **MIT License**. Feel free to use and modify!
+
