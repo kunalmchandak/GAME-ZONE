@@ -29,12 +29,11 @@ GAME ZONE is a Java-based desktop gaming application developed using **Java Swin
    cd GAME-ZONE
    ```
 2. Configure the MySQL database:
-   - Import `game_zone.sql` into MySQL
-   - Update database credentials in `DatabaseConnection.java`
+   - Use MySQL for the database.
 3. Compile and run the project:
    ```sh
-   javac -d bin -sourcepath src src/com/project/demo/Main.java
-   java -cp bin com.project.demo.Main
+   javac -d bin -sourcepath src src/com/project/demo/SplashScreen.java
+   java -cp bin com.project.demo.SplashScreen
    ```
 
 ## Contributing
