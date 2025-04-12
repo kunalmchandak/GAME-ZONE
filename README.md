@@ -53,8 +53,8 @@ To contribute to this project:
    ```
 
 ## Contributors
-- **Kunal Chandak** ([Project Developer](https://github.com/kunalmchandak))
-- **Ekta Khante** ([Project Developer](https://github.com/ektakhante))
+- **Kunal Chandak** ([kunalmchandak](https://github.com/kunalmchandak))
+- **Ekta Khante** ([ektakhante](https://github.com/ektakhante))
 
 ## License
 This project is licensed under the **MIT License**. Feel free to use and modify!
